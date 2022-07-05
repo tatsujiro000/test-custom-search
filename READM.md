@@ -1,5 +1,5 @@
 ## what is this
-Googleの検索を
+Googleの検索をapiで叩くだけのもの
 
 ## 理解していること
 - .env
