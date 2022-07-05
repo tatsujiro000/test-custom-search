@@ -1,11 +1,10 @@
-var express = require('express');
+const express = require('express');
 const { google } = require('googleapis');
 const config = require('../config');
 
-var router = express.Router();
+const router = express.Router();
 const customsearch = google.customsearch('v1');
 
-/* GET home page. */
 router.get('/', function (req, res, next) {
   res.render('index', { title: 'CSE Google' });
 });
